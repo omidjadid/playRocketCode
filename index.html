@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./js/GameMe.js?c=0016"></script>
+    <script src="./js/KeyCodeMe.js?a=07"></script>
+    <script src="./js/PageSet.js"></script>
+    <script src="./js/Raket.js?b=03"></script>
+    <script src="./js/Toop.js?a=011"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+    
+</head>
+<body id="b1" style="margin:0px;">
+    <div style="width: 100%;">
+        <div id="container" style="min-width: 310px; margin: 10px auto"></div>
+        <canvas id="MyCanvas" style="background-color: #aaa; width: 100%; height: 500px; margin: 0 auto"></canvas>
+    </div>   
+    <script>                
+        var gm = new GameMe();//ntoop,speedToop,speedRaket,interval,stpKeyPlay
+        gm.InitPlay(20, 4, 5, 10, 32);
+        gm.StartPlay();
+        //gm.SetKeyStopPlay(32); 
+    
+    </script>
+</body>
+
+</html>
