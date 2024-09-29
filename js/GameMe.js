@@ -12,7 +12,7 @@
     audioRaket;
     chart1;
     constructor() {
-        this.audioRaket = new Audio('./S(11).mp3');
+        this.audioRaket = new Audio('../file/S(11).mp3');
         //this.sound = document.getElementById("s");
         var pg=new PageSet();
         this._WPage=pg._WPage;
